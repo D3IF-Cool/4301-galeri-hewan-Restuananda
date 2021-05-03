@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fragment
+<androidx.recyclerview.widget.RecyclerView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:id="@+id/container"
-    android:name="org.d3if4087.galerihewan.ui.main.MainFragment"
-    tools:viewBindingIgnore="true"/>
+    android:id="@+id/recyclerView"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    tools:listitem="@layout/list_item"/>
